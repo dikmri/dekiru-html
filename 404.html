@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>移転しました ― AI コーディングノート</title>
+<script>
+  // 旧 URL（/dekiru-html/…）から、新しい URL（/ai-coding-notes/…）の同じ場所へ移る。後ろの ?… と #… もそのまま引き継ぐ
+  const to = new URL(location.href);
+  to.pathname = to.pathname.replace(/^\/dekiru-html(?=\/|$)/, '/ai-coding-notes');
+  if (to.pathname !== location.pathname) location.replace(to);
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=https://dikmri.github.io/ai-coding-notes/"></noscript>
+</head>
+<body>
+<p>このサイトは「AI コーディングノート」と名前を変え、<a href="https://dikmri.github.io/ai-coding-notes/">https://dikmri.github.io/ai-coding-notes/</a> へ移りました。</p>
+</body>
+</html>
